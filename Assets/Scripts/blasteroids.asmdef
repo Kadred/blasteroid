@@ -1,0 +1,24 @@
+{
+    "name": "blasteroids",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9b03f1a92a742384c9b884cf7c577f32",
+        "GUID:c91e3157efd0ca549b22b78032b21217",
+        "GUID:0a849a37b95f3f5479e4594aefa9b11d",
+        "GUID:54628a42ee83bbd42b7db8145128e942",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:95efc98e433ae8c4395bf71c049a91ee",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:a8a97a145e3cb1945aa6b4a7c3938b53",
+        "GUID:4d4bbe615c1dd054eb3bbd1231f4e9fb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

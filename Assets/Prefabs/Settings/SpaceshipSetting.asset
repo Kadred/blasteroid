@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d506a3048d4ebb9aa16c496d05b40d, type: 3}
+  m_Name: SpaceshipSetting
+  m_EditorClassIdentifier: 
+  moverData:
+    moveUnitsPerSecond: 0.05
+    maxSpeed: 0.1
+    secondsToStop: 2
+    degreesPerSecond: 180
+  shootingData:
+    BulletWeapon:
+      prefab: {fileID: 100000, guid: c94ca43fc5b95b64ea612d656a515489, type: 3}
+      rechargeTime: 0.3
+      speed: 50
+      colliderData:
+        tag: Bullet
+        size: {x: 0.1, y: 0.1}
+        collisionTags:
+        - Asteroid
+        - Ufo
+    LaserWeapon:
+      prefab: {fileID: 100000, guid: d086f7940b106654f888c7d6fda2e040, type: 3}
+      speed: 100
+      maxShots: 3
+      rechargeTime: 5
+      colliderData:
+        tag: Laser
+        size: {x: 0.1, y: 0.1}
+        collisionTags:
+        - Asteroid
+        - Ufo
+  colliderData:
+    tag: Spaceship
+    size: {x: 0.2, y: 0.2}
+    collisionTags:
+    - Asteroid
+    - Ufo

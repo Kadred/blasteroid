@@ -1,0 +1,19 @@
+{
+    "name": "Presenters",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0a849a37b95f3f5479e4594aefa9b11d",
+        "GUID:c91e3157efd0ca549b22b78032b21217",
+        "GUID:9b03f1a92a742384c9b884cf7c577f32",
+        "GUID:4d4bbe615c1dd054eb3bbd1231f4e9fb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

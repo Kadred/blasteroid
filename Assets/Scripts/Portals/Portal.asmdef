@@ -1,0 +1,17 @@
+{
+    "name": "Portal",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4d4bbe615c1dd054eb3bbd1231f4e9fb",
+        "GUID:0a849a37b95f3f5479e4594aefa9b11d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
